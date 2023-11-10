@@ -1,0 +1,391 @@
+body {
+    background-color: #A6F6FF;
+}
+
+.nav-bar {
+    background-color: #6499E9;
+}
+
+.brand {
+    color: #12486B;
+    margin: 0;
+}
+
+.nav {
+    color: white;
+}
+.nav :hover {
+    color: dodgerblue;
+}
+
+.navbarLinks {
+    justify-content: end;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.burgerIcon {
+    font-size: 2rem;
+    color: white;
+}
+
+.hero {
+    position: relative;
+}
+.nameSection {
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.scrollText {
+    color: black;
+}
+.scrollDown {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 50%;
+    border: solid 5px white;
+    z-index: 10;
+}
+
+.wedsName {
+    font-size: 9rem;
+    font-family: 'Great Vibes', cursive;
+    color: #12486B;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.myPhoto1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    z-index: -50;
+    opacity: 50%;
+}
+
+/* Invitation section */
+.invitation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invitationText {
+    text-align: center;
+    color: #071952;
+}
+.invitationName {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.heart {
+    position: absolute;
+    color: #071952;
+    font-size: 50px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.iconSection {
+    color: #071952;
+    text-align: center;
+}
+
+.iconSection2 {
+  color: white;
+  text-align: center;
+}
+
+.icons {
+    font-size: 100px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.iconText {
+    font-size: 1.5rem;
+}
+
+.receptionSection {
+    background-color: #202325;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.receptionText {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons2 {
+    font-size: 50px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.iconText2 {
+    font-size: 1.25rem;
+}
+
+.mapSection {
+    background-color: #18415c;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.locationText {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapArea {
+    height: 300px;
+    width: 400px;
+}
+
+.imageText {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.photosText {
+    font-size: 3rem;
+    color: #071952;
+}
+.imagesSection {
+    display: flex;
+    justify-content: center;
+}
+.photo {
+    border-radius: 50px;
+}
+
+.contacts {
+    background-color: #202325;
+}
+.contactText {
+    font-size: 2rem;
+}
+.contactTextName {
+    font-size: 1.5rem;
+}
+.contactIcons {
+    display: flex;
+    justify-content: center;
+}
+.icons3 {
+    font-size: 30px;
+}
+.contactMode {
+    text-decoration: none;
+    color: white;
+}
+.contactMode :hover {
+    color: white;
+}
+.copyright {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.copyrightText {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.copyrightTextEmail {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.copyrightTextEmail:hover {
+    color: white;
+}
+
+
+@media screen and (min-width: 481px){
+    .myPhoto {
+        display: none;
+    }
+}
+@media screen and (min-width: 721px){
+    .myVideo_portrait {
+        display: none;
+    }
+    .googleMapsButton {
+        display: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    .myPhoto1 {
+      display: none;
+    }
+    .myPhoto {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        z-index: -50;
+        opacity: 50%;
+    }
+    @media (min-aspect-ratio: 9/16) {
+        .myPhoto {
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media (max-aspect-ratio: 9/16) {
+        .myPhoto {
+            width: auto;
+            height: 75%;
+        }
+    }
+}
+@media screen and (min-width: 1300px) {
+  .wedsName {
+    font-size: 7rem;
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .wedsName {
+    font-size: 3rem;
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+    .wedsName {
+        font-size: 5rem;
+        padding-top: 150px;
+    }
+    .scrollDown {
+        margin-top: 100px;
+    }
+
+    .invitation {
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+    .invitationText {
+        font-size: 14px;
+        text-align: center;
+        color: #071952;
+    }
+    .invitationName {
+        font-size: 1.25rem;
+    }
+    .heart {
+        font-size: 30px;
+    }
+    .icons {
+        font-size: 50px;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+    .iconText {
+        font-size: 0.75rem;
+    }
+    
+    .receptionSection {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .icons2 {
+        font-size: 25px;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+    .iconText2 {
+        font-size: 0.75rem;
+    }
+
+    .locationText {
+        justify-content: center;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mapArea {
+        height: 200px;
+        width: 300px;
+    }
+    .googleMapsButton {
+        background-color: dodgerblue;
+        border-radius: 50px;
+        margin-top: 20px;
+        padding: 1rem;
+        border: none;
+    }
+    .googleMapsLink {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+    .googleMapsLink:hover {
+        text-decoration: none;
+        color: white;
+    }
+    .mapButton {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imageText {
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .photosText {
+        font-size: 1.5rem;
+        color: #071952;
+    }
+    .images {
+        width: 90% !important;
+    }
+    .photo {
+        border-radius: 20px;
+    }
+    
+    .contactIcons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .icons3 {
+        font-size: 20px;
+    }
+    .contactText {
+        font-size: 1.5rem;
+    }
+    .contactTextName {
+        font-size: 1rem;
+    }
+}
